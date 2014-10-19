@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D78D360419F46EEB009DF852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D360319F46EEB009DF852 /* main.m */; };
+		D78D360719F46EEB009DF852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D360619F46EEB009DF852 /* AppDelegate.m */; };
+		D78D360A19F46EEB009DF852 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D360919F46EEB009DF852 /* GameScene.m */; };
+		D78D360C19F46EEB009DF852 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D78D360B19F46EEB009DF852 /* GameScene.sks */; };
+		D78D360F19F46EEB009DF852 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D360E19F46EEB009DF852 /* GameViewController.m */; };
+		D78D361219F46EEB009DF852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78D361019F46EEB009DF852 /* Main.storyboard */; };
+		D78D361419F46EEB009DF852 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78D361319F46EEB009DF852 /* Images.xcassets */; };
+		D78D361719F46EEB009DF852 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78D361519F46EEB009DF852 /* LaunchScreen.xib */; };
+		D78D362319F46EEB009DF852 /* SpaceSquidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D362219F46EEB009DF852 /* SpaceSquidTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D78D361D19F46EEB009DF852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D78D35F619F46EEB009DF852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78D35FD19F46EEB009DF852;
+			remoteInfo = SpaceSquid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D78D35FE19F46EEB009DF852 /* SpaceSquid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceSquid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78D360219F46EEB009DF852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78D360319F46EEB009DF852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D78D360519F46EEB009DF852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D78D360619F46EEB009DF852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D78D360819F46EEB009DF852 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D78D360919F46EEB009DF852 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D78D360B19F46EEB009DF852 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D78D360D19F46EEB009DF852 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D78D360E19F46EEB009DF852 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D78D361119F46EEB009DF852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D78D361319F46EEB009DF852 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D78D361619F46EEB009DF852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D78D361C19F46EEB009DF852 /* SpaceSquidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceSquidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78D362119F46EEB009DF852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78D362219F46EEB009DF852 /* SpaceSquidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceSquidTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D78D35FB19F46EEB009DF852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78D361919F46EEB009DF852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D78D35F519F46EEB009DF852 = {
+			isa = PBXGroup;
+			children = (
+				D78D360019F46EEB009DF852 /* SpaceSquid */,
+				D78D361F19F46EEB009DF852 /* SpaceSquidTests */,
+				D78D35FF19F46EEB009DF852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D78D35FF19F46EEB009DF852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78D35FE19F46EEB009DF852 /* SpaceSquid.app */,
+				D78D361C19F46EEB009DF852 /* SpaceSquidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D78D360019F46EEB009DF852 /* SpaceSquid */ = {
+			isa = PBXGroup;
+			children = (
+				D78D360519F46EEB009DF852 /* AppDelegate.h */,
+				D78D360619F46EEB009DF852 /* AppDelegate.m */,
+				D78D360819F46EEB009DF852 /* GameScene.h */,
+				D78D360919F46EEB009DF852 /* GameScene.m */,
+				D78D360B19F46EEB009DF852 /* GameScene.sks */,
+				D78D360D19F46EEB009DF852 /* GameViewController.h */,
+				D78D360E19F46EEB009DF852 /* GameViewController.m */,
+				D78D361019F46EEB009DF852 /* Main.storyboard */,
+				D78D361319F46EEB009DF852 /* Images.xcassets */,
+				D78D361519F46EEB009DF852 /* LaunchScreen.xib */,
+				D78D360119F46EEB009DF852 /* Supporting Files */,
+			);
+			path = SpaceSquid;
+			sourceTree = "<group>";
+		};
+		D78D360119F46EEB009DF852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D78D360219F46EEB009DF852 /* Info.plist */,
+				D78D360319F46EEB009DF852 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D78D361F19F46EEB009DF852 /* SpaceSquidTests */ = {
+			isa = PBXGroup;
+			children = (
+				D78D362219F46EEB009DF852 /* SpaceSquidTests.m */,
+				D78D362019F46EEB009DF852 /* Supporting Files */,
+			);
+			path = SpaceSquidTests;
+			sourceTree = "<group>";
+		};
+		D78D362019F46EEB009DF852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D78D362119F46EEB009DF852 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D78D35FD19F46EEB009DF852 /* SpaceSquid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78D362619F46EEB009DF852 /* Build configuration list for PBXNativeTarget "SpaceSquid" */;
+			buildPhases = (
+				D78D35FA19F46EEB009DF852 /* Sources */,
+				D78D35FB19F46EEB009DF852 /* Frameworks */,
+				D78D35FC19F46EEB009DF852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceSquid;
+			productName = SpaceSquid;
+			productReference = D78D35FE19F46EEB009DF852 /* SpaceSquid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D78D361B19F46EEB009DF852 /* SpaceSquidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78D362919F46EEB009DF852 /* Build configuration list for PBXNativeTarget "SpaceSquidTests" */;
+			buildPhases = (
+				D78D361819F46EEB009DF852 /* Sources */,
+				D78D361919F46EEB009DF852 /* Frameworks */,
+				D78D361A19F46EEB009DF852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D78D361E19F46EEB009DF852 /* PBXTargetDependency */,
+			);
+			name = SpaceSquidTests;
+			productName = SpaceSquidTests;
+			productReference = D78D361C19F46EEB009DF852 /* SpaceSquidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D78D35F619F46EEB009DF852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andrew Torres";
+				TargetAttributes = {
+					D78D35FD19F46EEB009DF852 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D78D361B19F46EEB009DF852 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D78D35FD19F46EEB009DF852;
+					};
+				};
+			};
+			buildConfigurationList = D78D35F919F46EEB009DF852 /* Build configuration list for PBXProject "SpaceSquid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D78D35F519F46EEB009DF852;
+			productRefGroup = D78D35FF19F46EEB009DF852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D78D35FD19F46EEB009DF852 /* SpaceSquid */,
+				D78D361B19F46EEB009DF852 /* SpaceSquidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D78D35FC19F46EEB009DF852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78D361719F46EEB009DF852 /* LaunchScreen.xib in Resources */,
+				D78D361419F46EEB009DF852 /* Images.xcassets in Resources */,
+				D78D360C19F46EEB009DF852 /* GameScene.sks in Resources */,
+				D78D361219F46EEB009DF852 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78D361A19F46EEB009DF852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D78D35FA19F46EEB009DF852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78D360F19F46EEB009DF852 /* GameViewController.m in Sources */,
+				D78D360719F46EEB009DF852 /* AppDelegate.m in Sources */,
+				D78D360A19F46EEB009DF852 /* GameScene.m in Sources */,
+				D78D360419F46EEB009DF852 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78D361819F46EEB009DF852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78D362319F46EEB009DF852 /* SpaceSquidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D78D361E19F46EEB009DF852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D78D35FD19F46EEB009DF852 /* SpaceSquid */;
+			targetProxy = D78D361D19F46EEB009DF852 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D78D361019F46EEB009DF852 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D78D361119F46EEB009DF852 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D78D361519F46EEB009DF852 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D78D361619F46EEB009DF852 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D78D362419F46EEB009DF852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D78D362519F46EEB009DF852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D78D362719F46EEB009DF852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpaceSquid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D78D362819F46EEB009DF852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpaceSquid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D78D362A19F46EEB009DF852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpaceSquidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceSquid.app/SpaceSquid";
+			};
+			name = Debug;
+		};
+		D78D362B19F46EEB009DF852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpaceSquidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceSquid.app/SpaceSquid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D78D35F919F46EEB009DF852 /* Build configuration list for PBXProject "SpaceSquid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78D362419F46EEB009DF852 /* Debug */,
+				D78D362519F46EEB009DF852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78D362619F46EEB009DF852 /* Build configuration list for PBXNativeTarget "SpaceSquid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78D362719F46EEB009DF852 /* Debug */,
+				D78D362819F46EEB009DF852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D78D362919F46EEB009DF852 /* Build configuration list for PBXNativeTarget "SpaceSquidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78D362A19F46EEB009DF852 /* Debug */,
+				D78D362B19F46EEB009DF852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D78D35F619F46EEB009DF852 /* Project object */;
+}
