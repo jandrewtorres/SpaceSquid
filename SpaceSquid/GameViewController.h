@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import <iAd/iAd.h>
+#import <GameKit/GameKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface GameViewController : UIViewController
 
+@interface GameViewController : UIViewController <ADBannerViewDelegate>
+
+@property (nonatomic) AVAudioPlayer *aplayer;
+@property BOOL contentCreated;
 @end
