@@ -14,6 +14,8 @@ Released May 30th, 2015
 No longer on iOS store
 
 Screenshots:
+
+
 ![Splash](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/SplashSS.png)
 ![Home](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/StartSS.png)
 ![LevelOne](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/InitialSS.png)
