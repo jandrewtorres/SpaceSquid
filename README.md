@@ -14,10 +14,10 @@ Released May 30th, 2015
 No longer on iOS store
 
 Screenshots:
-![Splash](https://raw.github.com/jandrewtorres/SpaceSquid/SpaceSquid/Images.xcassets/SplashSS.png)
-![Home](https://raw.github.com/jandrewtorres/SpaceSquid/SpaceSquid/Images.xcassets/StartSS.png)
-![LevelOne](https://raw.github.com/jandrewtorres/SpaceSquid/SpaceSquid/Images.xcassets/InitialSS.png)
-![gameplay](https://raw.github.com/jandrewtorres/SpaceSquid/SpaceSquid/Images.xcassets/gameplay.png)
-![Game Over](https://raw.github.com/jandrewtorres/SpaceSquid/SpaceSquid/Images.xcassets/GameOverSS.png)
+![Splash](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/SplashSS.png)
+![Home](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/StartSS.png)
+![LevelOne](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/InitialSS.png)
+![gameplay](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/gameplay.png)
+![Game Over](https://raw.github.com/jandrewtorres/SpaceSquid/master/SpaceSquid/Images.xcassets/GameOverSS.png)
 
 Artwork by Brennyn Torres
